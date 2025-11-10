@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Payment_Status__c</fullName>
+    <label>Payment Status</label>
+    <type>Picklist</type>
+    <valueSet>
+    <valueSetDefinition>
+        <sorted>false</sorted>
+        <value><fullName>Pending</fullName></value>
+        <value><fullName>Partial</fullName></value>
+        <value><fullName>Paid</fullName></value>
+        <value><fullName>Refunded</fullName></value>
+    </valueSetDefinition>
+</valueSet>
+
+</CustomField>

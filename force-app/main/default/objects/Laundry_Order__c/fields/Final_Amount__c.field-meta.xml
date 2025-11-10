@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Final_Amount__c</fullName>
+    <label>Final Amount</label>
+    <type>Currency</type>
+    <precision>16</precision>
+    <scale>2</scale>
+    <formula>IF( ISBLANK(Total_Amount__c), 0, Total_Amount__c ) - IF( ISBLANK(Discount_Amount__c), 0, Discount_Amount__c )</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <inlineHelpText>Final Amount = Total Amount - Discount Amount</inlineHelpText>
+
+</CustomField>

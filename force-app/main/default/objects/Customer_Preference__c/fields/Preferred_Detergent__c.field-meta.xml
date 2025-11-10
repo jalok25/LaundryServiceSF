@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Preferred_Detergent__c</fullName>
+    <label>Preferred Detergent</label>
+    <type>Picklist</type>
+    <valueSet>
+    <valueSetDefinition>
+        <sorted>false</sorted>
+        <value><fullName>Regular</fullName></value>
+        <value><fullName>Hypoallergenic</fullName></value>
+        <value><fullName>Fragrance-Free</fullName></value>
+        <value><fullName>Eco-Friendly</fullName></value>
+    </valueSetDefinition>
+</valueSet>
+
+</CustomField>
