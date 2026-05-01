@@ -12,6 +12,7 @@
     <isOmniPinnedViewEnabled>false</isOmniPinnedViewEnabled>
     <label>Laundry Management</label>
     <navType>Standard</navType>
+    <tabs>Place_Order</tabs>
     <tabs>standard-Account</tabs>
     <tabs>Laundry_Order__c</tabs>
     <tabs>Order_Item__c</tabs>
